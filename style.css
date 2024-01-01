@@ -1,0 +1,387 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(Air.jpg);
+    background-repeat: no-repeat;
+}
+header { 
+width: 100%; 
+background: rgba(0, 0, 0, 0.6);
+display: flex; 
+align-items: center; 
+justify-content: space-between;
+height: 6.5vh;
+padding: 1px;
+} 
+.h3 { list-style: none; 
+color: #fff;
+margin-left: 100px;
+} 
+a { list-style: none;
+ color: #fff; 
+ margin-left: 5px; 
+ margin-top: 4px; }
+.h1 {
+ color: #fff;
+  padding: 8px;
+ font-family: 'Times New Roman',Times, serif; 
+  margin-top: 5px;
+ }
+nav {
+
+background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    height: 2vh;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fcf8f8;
+}
+
+.container {
+display: flex;
+justify-content: center;
+height: 100px;
+margin-top: 100px;
+margin-bottom: 0%;
+color: #ffffff;
+}
+.text {
+
+font-size: 100px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+font-family: 'Times New Roman', Times, serif;
+}
+
+.container1 {
+
+width: 100%;
+height: 100vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #f4f1f1;
+}
+
+.content1 {
+
+text-align: center;
+}
+
+button {
+margin-top: 24px;
+padding: 4px 50px;
+font-size: 34px;
+background-color: #ba1e0d;
+color: white;
+border: none;
+cursor: pointer;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+p{
+margin-left: 60px;
+margin-right: 60px;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+}
+.container2 {
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #c2bfbf;
+    margin-bottom: 0%;
+}
+.text1 {
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text1-1{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3b3a3a;
+}
+
+.card-container2 {
+
+    display: flex;
+justify-content: space-around;
+width: 100%;
+height: 45%;
+padding: 2px;
+margin-top: 0%;
+margin-bottom: 0%; 
+}
+.card {
+    flex: 1;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    margin: 0 10px;
+    height: 90%;
+    background-color: #ffffff;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.text2-2{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 1px;
+    color: #731106;
+    padding: 5px;
+}
+.text2-3{
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+.card img {
+    width: 100%;
+    height: 60%;
+    display: block;
+}
+.card-big {
+    flex: 1;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin: 0 10px;
+    flex: 2;
+    background-image: url(https://www.au.edu.pk/Pages/NewsEvents/EventGallary/80_4.jpg);
+    height: 90%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);}
+.text2{
+   
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fafafa;
+    margin-left: 7px;
+    text-shadow: #3a3535;
+}
+.text2-1{
+    margin-top: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fafafa;
+    margin-left: 7px;
+    text-shadow: #3a3535;
+}
+
+.containerm {
+text-align: center;
+background-color: #ffffff;
+padding: 10px;
+}
+
+.center-text {
+margin: 0;
+font-weight: bolder;
+font-size: 50px;
+}
+.center-text1 {
+margin-left: 270px;
+margin-right: 270px;
+font-weight: lighter;
+font-size: 25px;
+color: #1a1818;
+}
+
+.cardm-container {
+display: flex;
+margin-left: 10px;
+flex-wrap: wrap;
+gap: 20px;
+padding: 10px;
+}
+
+.cardm {
+width: 370px;
+background-color: #fff;
+padding: 10px;
+text-align: center;
+
+}
+
+.cardm img {
+width: 100%;
+height: auto;
+margin-bottom: 5px;
+
+}
+
+.cardm h3 {
+margin: 0%;
+}
+
+.cardm p {
+margin-bottom: 5px;
+font-size: smaller;
+color: #333;
+}
+.cardm--p {
+margin-bottom: 5px;
+display: inline-flex;
+font-size: smaller;
+color: #333;
+}
+
+.cardm a {
+display: inline-block;
+padding: 2px 5px;
+font-weight: bold;
+text-decoration: none;
+color: #02337c;
+}
+.text5{
+display: inline-block;
+color: #000000;
+text-decoration: none;
+padding: 2px 5px;
+font-size: 22px;
+margin-left: 70px;
+}
+.text5 a{
+display: inline-block;
+color: #02337c;
+text-decoration: none;
+}
+.text5h1{
+display: inline-block;
+font-weight: bold;
+margin-left: 200px;
+text-decoration: none;
+padding: 2px 2px;
+}
+.text55{
+margin-left: 150px;
+}
+.btnn{
+margin-left: 210px;
+
+}
+.text4{
+    margin: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    }
+    .btn{
+    background-color: #f2f2f2;
+    color: #020202;
+    box-shadow: #0c0808;
+    border: #150b0b;
+    padding: 1px;
+    margin: 2px;
+    text-size-adjust: 1px;
+    width: 99%;
+    height: 10%;
+    }
+    .H5{
+    padding: 10px;
+    margin: 20px;
+    }
+    .exp{
+    margin-top: 275px;
+    width: 100%;
+    height: 6vh;
+    background-color: #8e0606;
+    color: #ffffff;
+    }
+    .exptext{
+    color: #ffffff;
+    margin-left: 40%;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-shadow: #0c0808;
+    }
+    .header-label{
+    
+    color: #ffffff;
+    margin-left: 0%;
+    
+    }
+    .header-label input{
+    width: 60px;
+    }
+    .buttonn {
+    margin-top: 20px;
+    padding: 4px 50px;
+    font-size: 34px;
+    background-color: #ba1e0d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+                
+footer{
+margin: 0%;
+padding: 0%;
+}
+
+.footer-container {
+margin-top: 5%;
+display: flex;
+justify-content: space-around;
+padding: 0px;
+background-color: #fbf9f9;
+color: #150b0b;
+}
+
+.footer-section {
+
+margin: 0px;
+padding: 0px;
+
+}
+
+.footer-section h4 {
+font-size: 18px;
+color: #8e0606;
+}
+
+.footer-section p {
+margin: 0px 0;
+}
+
+.footer-section ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-section ul li {
+margin-bottom: 0px;
+}
+
+.footer-section a {
+text-decoration: none;
+color: #0c0808;
+}
+
+.copyright {
+
+padding: 4px;
+margin: 0%;
+background-color: #8e0606;
+color: #f8f5f5;
+display: inline-flex;
+}
+.footer-image img {
+width: 100%;
+height: 80%;
+max-height: 400px; /* Set a maximum height for the footer image */
+margin-top: 0%;
+margin-bottom: 0%;
+}
+                  
+                             
